@@ -1,0 +1,8 @@
+README.rst
+setup.py
+reffipe.egg-info/PKG-INFO
+reffipe.egg-info/SOURCES.txt
+reffipe.egg-info/dependency_links.txt
+reffipe.egg-info/not-zip-safe
+reffipe.egg-info/requires.txt
+reffipe.egg-info/top_level.txt

@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: reffipe
+Version: 0.1.0
+Summary: A recipe storage program
+Home-page: https://github.com/creffett/reffipe
+Author: Chris & Caroline Reffett
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Topic :: Utilities

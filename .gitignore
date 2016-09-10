@@ -1,0 +1,9 @@
+*.*~
+b
+build
+.cache
+dist
+.eggs
+__pycache__
+*.py[co]
+*.sw?

@@ -1,0 +1,24 @@
+language: python
+
+sudo: false
+
+python:
+    - 3.4
+    - 3.5
+
+cache:
+    directories:
+    - $HOME/.cache/pip
+
+install:
+    - pip install flake8 sphinx coveralls codacy-coverage .
+
+script:
+    - flake8 --max-line-length=200 .
+    - coverage run ./setup.py test
+    - ./scripts/build_docs.sh
+
+after_success:
+    - coverage xml
+    - python-codacy-coverage -r coverage.xml -c `git rev-parse HEAD^`
+    - coveralls

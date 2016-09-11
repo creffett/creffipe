@@ -2,6 +2,7 @@
 b
 build
 .cache
+.coverage
 dist
 .eggs
 __pycache__

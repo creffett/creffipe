@@ -1,5 +1,7 @@
 README.rst
 setup.py
+reffipe/__init__.py
+reffipe/model.py
 reffipe.egg-info/PKG-INFO
 reffipe.egg-info/SOURCES.txt
 reffipe.egg-info/dependency_links.txt

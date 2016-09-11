@@ -35,13 +35,13 @@ class TimeEnum(enum.Enum):
 recipe_ingredients = Table('recipe_ingredients', Base.metadata,
                            Column('recipe_id', ForeignKey('recipe.id'), primary_key=True),
                            Column('ingredient_id', ForeignKey('ingredient.id'), primary_key=True),
-                          )
+                           )
 
 # Association table for recipes+tags
 recipe_tags = Table('recipe_tags', Base.metadata,
                     Column('recipe_id', ForeignKey('recipe.id'), primary_key=True),
                     Column('tag_id', ForeignKey('tag.id'), primary_key=True),
-                   )
+                    )
 
 
 class Step(Base):

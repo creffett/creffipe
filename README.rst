@@ -15,8 +15,4 @@ Contributing
 ------------
 Run flake8 --max-line-length 200 .
 
-Run ./scripts/build_docs.sh
-
-Run ./setup.py egg_info
-
 Commit the changes.
